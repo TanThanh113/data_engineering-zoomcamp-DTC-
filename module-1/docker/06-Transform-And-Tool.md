@@ -26,12 +26,12 @@ def run(pg_user, pg_pass, pg_host, pg_port, pg_db, target_table):
 The operation will be as follows (Window):
 ```
 uv run python ingest_data.py `
-  --pg-user = thanh123 `
-  --pg-pass = 1234 `
-  --pg-host = localhost `
-  -- pg-port = 5433 `
-  -- pg-db = ny_taxi `
-  --target-table = yellow_taxi_trips
+  --pg-user=thanh123 `
+  --pg-pass=1234 `
+  --pg-host=localhost `
+  --pg-port=5433 `
+  --pg-db=ny_taxi `
+  --target-table=yellow_taxi_trips
 ```
 To learn how to input data correctly according to the structure created by others, we use the following method:
 ```
